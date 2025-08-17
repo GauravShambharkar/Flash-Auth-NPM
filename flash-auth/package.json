@@ -1,27 +1,32 @@
 {
   "name": "flashauth",
   "version": "1.0.0",
+  "description": "Fast and simple authentication helpers (bcrypt + JWT)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GauravShambharkar/Flash-Auth-NPM.git"
+    "url": "https://github.com/GauravShambharkar/Flash-Auth-NPM.git"
   },
-  "keywords": [],
+  "keywords": [
+    "authentication",
+    "bcrypt",
+    "jwt",
+    "password",
+    "token",
+    "security"
+  ],
   "author": "Gaurav Shambharkar",
   "license": "ISC",
-  "description": "fast Authentication process",
   "dependencies": {
     "bcrypt": "^6.0.0",
-    "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/GauravShambharkar/Flash-Auth-NPM/issues"
   },
   "homepage": "https://github.com/GauravShambharkar/Flash-Auth-NPM#readme"
-
 }
